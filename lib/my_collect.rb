@@ -5,5 +5,5 @@ def my_collect(languages)
     collect << yield(array[i])
     i += 1
   end
-  languages
+  collect
 end
